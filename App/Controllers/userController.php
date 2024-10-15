@@ -140,7 +140,7 @@ class userController extends Controller
             $client->addScope("profile");
             $url = $client->createAuthUrl();
             // header("Location: " . $url);
-            header("Refresh: 0 ; URL=" . $url);
+            header("Refresh: 5 ; URL=" . $url);
             echo "<h1>Redirecting to Google</h1>";
             echo "<p>If you are not redirected, please <a href='$url'>click here</a></p>";
             exit();

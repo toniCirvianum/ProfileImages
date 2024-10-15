@@ -18,20 +18,5 @@ require_once('App/Model/User.php');
 require_once('App/config.php');
 
 
-
-// echo "<pre>";
-// print_R($_SESSION);
-// echo "</pre>";
-
-
-
-// spl_autoload_register(function($classe) {
-//     str_replace('\\','/',$classe);
-//     $classe=$classe.".php";
-//     require_once($classe);
-// });
-
-
-
 $myRouter = new Router();
 $myRouter->run();
