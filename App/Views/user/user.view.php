@@ -1,0 +1,1 @@
+<h1>Estic dins l'aplicació!</h1>
